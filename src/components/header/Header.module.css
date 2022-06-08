@@ -1,0 +1,59 @@
+.head{
+    width: 100%;
+    height: auto;
+    display:flex ; 
+    flex-direction:row;
+    background-color:#3C4883;
+    position: fixed;
+    top:0px;
+    margin-bottom: 1px;
+}
+
+.logoimg{
+    width: 4.5vw;
+    height: 4.5vw;
+    margin: 1% 1% 1% 1% ;
+}
+
+.org{
+    margin-right: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 2.5vw;
+}
+
+.name{
+    color: #F49B48;
+}
+
+.topoptions{
+    margin: 1.5% 0 0 0;
+    position:absolute;
+    font-size: 1.5vw;
+    max-width:auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+    color: white;
+    right:3vw;
+}
+
+.topoptions button{
+    background-color: #F49B48;
+    color:black;
+    font-size: 1.5vw;
+    font-style: bold;
+    height:3vw;
+    width:auto;
+    border-radius: 25px;
+    margin-top: 1.5vw;
+}
+
+.translateimg{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: 2vw;
+}
