@@ -29,7 +29,7 @@ h1{
 }
 
 .topoptions{
-    margin: 1.5% 0 0 0;
+    margin: 0.5vw 0 0 0;
     position:absolute;
     font-size: 1.5vw;
     max-width:auto;
@@ -43,8 +43,9 @@ h1{
 
 .topoptions button{
     background-color: #F49B48;
+    font-weight: bold;
     color:black;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-style: bold;
     height:3vw;
     width:auto;

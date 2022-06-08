@@ -1,0 +1,146 @@
+.head{
+    width: 100%;
+    height: auto;
+    display:flex ; 
+    flex-direction:row;
+    background-color:transparent;
+    position: fixed;
+    top:0px;
+    margin-bottom: 1px;
+}
+
+.headactive{
+    width: 100%;
+    height: auto;
+    display:flex ; 
+    flex-direction:row;
+    background-color: #3C4883;
+    position: fixed;
+    top:0px;
+    margin-bottom: 1px;
+    z-index: 1;
+}
+
+.logoimg{
+    width: 6vw;
+    height: 6vw;
+    margin: 1% 1% 1% 1% ;
+}
+.logoimgactive{
+    width: 4.5vw;
+    height: 4.5vw;
+    margin: 1% 1% 1% 1% ;
+}
+
+.orgactive{
+    margin-right: 10px;
+    color: white;
+    font-size: 2.5vw;
+}
+.org{
+    margin-right: 10px;
+    color: black;
+    font-size: 2.5vw;
+}
+
+.line{
+    border-left:2px solid #F49B48; 
+    height:auto ;
+    margin:1.5vw 1vw 2vw 0;
+}
+.lineactive{
+    border-left:2px solid white; 
+    height:auto ;
+    margin:1.5vw 1vw 1.5vw 0;
+}
+
+.namesactive{
+    color: #F49B48;
+}
+.names{
+    color: #3C4883;
+}
+
+.topoptions{
+    margin: 0.5vw 0 0 0;
+    position:absolute;
+    font-size: 1.5vw;
+    max-width:auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+    color: black;
+    right:3vw;
+}
+.topoptionsactive{
+    margin: 0.5vw 0 0 0;
+    position:absolute;
+    font-size: 1.5vw;
+    max-width:auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+    color: white;
+    right:3vw;
+}
+
+.topoptions button{
+    background-color: #F49B48;
+    font-weight: bold;
+    color:black;
+    font-size: 1.25vw;
+    font-style: bold;
+    height:3vw;
+    width:auto;
+    border-radius: 25px;
+    margin-top: 1.5vw;
+}
+.topoptionsactive button{
+    background-color: #F49B48;
+    font-weight: bold;
+    color:black;
+    font-size: 1.25vw;
+    font-style: bold;
+    height:3vw;
+    width:auto;
+    border-radius: 25px;
+    margin-top: 1.5vw;
+}
+
+.translateimg{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: 2vw;
+}
+
+.navoptions{
+    position: absolute;
+    border: 2px solid black;
+    width:94%;
+    height:auto;
+    border-radius: 25px;
+    right: 3%;
+    top:7.5vw;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5vw;
+}
+
+.navoptionsactive{
+    position: absolute;
+    border: 2px solid black;
+    width:94%;
+    height:auto;
+    border-radius: 25px;
+    right: 3%;
+    top:7vw;
+    font-size: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5vw;
+}
