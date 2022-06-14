@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
-import HomeHeader from './components/header/homeHeader.js';
-import Footer from './components/footer/Footer';
+import Home from './Home/Home';
+import Calendar from './components/calendar/Calendar';
+import Login from './components/login/Login';
+import Search from './components/Search/Search';
+
 
 function App() {
   return (
     <div className="App">
-      <p> AICTE project</p>
+    <Search />
     </div>
   );
 }

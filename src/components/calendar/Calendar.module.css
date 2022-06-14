@@ -1,0 +1,13 @@
+.calendarContainer{
+    width:90%;
+    position:relative;
+    left:5%;
+    min-height:20vw;
+    border:1px solid black;
+    margin-bottom: 15vw;
+    border-radius: 1vw;
+}
+
+body{
+    font-size: 1.5vw;
+}

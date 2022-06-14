@@ -1,0 +1,35 @@
+[
+    {
+        "Name" : "COEP",
+        "img" : "./clgimg.png"
+    },
+    {
+        "Name" : "VIT",
+        "img" : "./clgimg.png"
+    },
+    {
+        "Name" : "PCCOE",
+        "img" : "./clgimg.png"
+    },
+    {
+        "Name" : "PCCOER",
+        "img" : "./clgimg.png"
+    },
+    {
+        "Name" : "DYP",
+        "img" : "./clgimg.png"
+    },
+    {
+        "Name" : "DYPIEMR",
+        "img" : "./clgimg.png"
+    },
+    {
+        "Name" : "AISSM",
+        "img" : "./clgimg.png"
+    },
+    {
+        "Name" : "MODERN",
+        "img" : "./clgimg.png"
+    }
+    
+]
