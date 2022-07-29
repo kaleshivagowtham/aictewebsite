@@ -14,21 +14,21 @@ export default function Header() {
             <div style={{ borderLeft:"2px solid white", height:"auto" , margin:"1.5vw 1vw 1.5vw 0"}}></div>
             <h1 className={classes.name}>ClgSearch.com</h1>
             <div className={classes.topoptions}>
-                <h4>Home</h4>
-                <h4 style={{width:"auto" , whiteSpace:"nowrap"}}>Rank Predictor</h4>
-                <h4>Compare</h4>
-                <h4>Calender</h4>
-                <img className={classes.translateimg} src={translateimg} />
-                <button onClick={() => {return <div><p>hello</p></div>}}>Login/Register</button>
-            </div>
+            <h4><a className='colorNotChange' style={{color:"white"}} href='http://www.youtube.com' target='blank'>Home</a></h4>
+                <h4><a className='colorNotChange' style={{color:"white"}} href='http://www.youtube.com' target='blank'>Rank Predictor</a></h4>
+                <h4><a className='colorNotChange' style={{color:"white"}} href='http://www.youtube.com' target='blank'>Compare</a></h4>
+                <h4><a className='colorNotChange' style={{color:"white"}}  href='http://www.youtube.com' target='blank'>Calendar</a></h4>
+                <img className='translateimg' src={translateimg} />
+                <button id='loginButton'><a style={{color: "black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Login/Register</a></button>
+        </div>
         </div>
         <div className={classes.navoptions}>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>NIRF</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Cities</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Courses</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Degree</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Exams</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Scholarships</h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>NIRF</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Cities</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Courses</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Degree</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Exams</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Scholarships</a></h4>
         </div>
         <div style={{height:"5vw"}}></div>
         </>

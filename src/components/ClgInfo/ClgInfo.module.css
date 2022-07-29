@@ -1,0 +1,51 @@
+.titleImg{
+    width: 100%;
+    height: auto;
+}
+
+.Info{
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 10%;
+    top: -10vw;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding-bottom: 10vw;
+}
+
+.titleBlock{
+    position: relative;
+    width: 90%;
+    height: auto;
+    display: flex;
+    left: 5%;
+}
+
+.clgLogo{
+    position: relative;
+    width: 15%;
+    height: auto;
+    top: -5vw;
+}
+
+.clgDetailOptions{
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 5%;
+    flex-wrap: wrap;
+    padding: 2vw 0 2vw 0;
+}
+
+.options{
+    width: 16%;
+    height: 3vw;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin: 0.5vw 0.5vw 0.5vw 0.5vw;
+}

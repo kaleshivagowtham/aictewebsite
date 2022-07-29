@@ -49,7 +49,7 @@ function Home() {
             <img className={classes.topclgs} src={clgimg}/>
             <img className={classes.topclgs} src={clgimg}/>
             <img className={classes.topclgs} src={clgimg}/>
-            <button className={classes.topclgsmore}>+More...</button>
+            <button className={classes.topclgsmore} style={{userSelect:"none",WebkitUserSelect:"none",cursor:"pointer"}}>+More...</button>
         </div>
        </div>
         <div >
@@ -80,7 +80,7 @@ function Home() {
                 <p style={{ position:"absolute",fontSize:"1vw" , width:"auto" , height:"auto",fontSize:"1.5vw",top:"50%",paddingBottom:"1vw"}}>city name</p>
             </div>
             <div className={classes.topcities}>
-                <button style={{width:"6.5vw",height:"7vw",backgroundColor:"white",border:"none",fontSize: "1.5vw"}}>+More...</button>
+                <button className={classes.morebtn}>+More...</button>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@ function Home() {
                 <p style={{ position:"absolute",fontSize:"1vw" , width:"auto" , height:"auto",fontSize:"1.5vw",top:"50%",paddingBottom:"1vw"}}>city name</p>
             </div>
             <div className={classes.topcities}>
-                <button style={{width:"6.5vw",height:"7vw",backgroundColor:"white",border:"none",fontSize: "1.5vw"}}>+More...</button>
+                <button className={classes.morebtn}>+More...</button>
             </div>
           </div>
         </div> 
@@ -144,7 +144,7 @@ function Home() {
                 <p style={{ position:"absolute",fontSize:"1vw" , width:"auto" , height:"auto",fontSize:"1.5vw",top:"50%",paddingBottom:"1vw"}}>city name</p>
             </div>
             <div className={classes.topcities}>
-                <button style={{width:"6.5vw",height:"7vw",backgroundColor:"white",border:"none",fontSize: "1.5vw"}}>+More...</button>
+                <button className={classes.morebtn} >+More...</button>
             </div>
           </div>
         </div>  

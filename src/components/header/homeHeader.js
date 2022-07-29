@@ -8,6 +8,8 @@ import Calendar from '../calendar/Calendar';
 
 export default function Header() {
 
+    const [cities, setCities] = useState(false);
+
     const [navbar , setNavbar] = useState(false);
     const changeBackground = () => {
         if(window.scrollY >= 20){
@@ -26,23 +28,22 @@ export default function Header() {
             <h1 className={ navbar ? 'orgactive' : 'org'}>AICTE</h1>
             <div className={ navbar ? 'lineactive' : 'line'} style={{}}></div>
             <h1 className={ navbar ? 'namesactive' : 'names'}>ClgSearch.com</h1>
-            <div className={ navbar ? 'topoptionsactive' : 'topoptions'}>
-
-                <h4>Home</h4>
-                <h4 style={{width:"auto" , whiteSpace:"nowrap"}}>Rank Predictor</h4>
-                <h4>Compare</h4>
-                <h4>Calender</h4>
-                <img className={'translateimg'} src={translateimg} />
-                <button style={{cursor:"pointer"}} id='loginButton'>Login/Register</button>
-            </div>
+            <nav className={ navbar ? 'topoptionsactive' : 'topoptions'}>
+                <h4><a className={navbar ? 'colorChange' : 'colorNotChange'} href='http://www.youtube.com' target='blank'>Home</a></h4>
+                <h4><a className={navbar ? 'colorChange' : 'colorNotChange'} href='http://www.youtube.com' target='blank'>Rank Predictor</a></h4>
+                <h4><a className={navbar ? 'colorChange' : 'colorNotChange'} href='http://www.youtube.com' target='blank'>Compare</a></h4>
+                <h4><a className={navbar ? 'colorChange' : 'colorNotChange'}  href='http://www.youtube.com' target='blank'>Calendar</a></h4>
+                <img style={{userSelect:"none",WebkitUserSelect:"none",cursor:"pointer"}} className={navbar ? 'translateimgactive' : 'translateimg'} src={translateimg} />
+                <button id='loginButton'><a style={{color: "black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Login/Register</a></button>
+        </nav>
         </div>
         <div className={navbar ? 'navoptionsactive' : 'navoptions' }>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>NIRF</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Cities</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Courses</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Degree</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Exams</h4>
-            <h4 style={{margin:"0.5vw 0 0.5vw 0"}}>Scholarships</h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>NIRF</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Cities</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Courses</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Degree</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Exams</a></h4>
+            <h4 className='subNavBar'><a className='colorNotChange' style={{color:"black",textDecoration:"none"}} href='http://www.youtube.com' target='blank'>Scholarships</a></h4>
         </div>
       </div>
     );

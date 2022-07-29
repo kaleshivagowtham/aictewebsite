@@ -7,7 +7,6 @@ import clgdata from '../../colleges.json';
 export default function Search() {
 
   const [searchTerm , SetSearchTerm] = useState('');
-
   const [searchFor , setSearchFor] = useState('');
 
     return (

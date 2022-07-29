@@ -1,6 +1,9 @@
 .titleimg{
     width: 100%;
     height: auto;
+    user-select:none;
+    -webkit-user-select:none;
+    cursor:pointer;
 }
 
 .search{
@@ -9,7 +12,7 @@
     height:auto;
     display: flex;
     flex-direction: column;
-    left:20%;
+    left:24%;
     top:21vw;
     /* border-radius: 25vw; */
 }
@@ -18,6 +21,7 @@
     width: 80%;
     height:3vw;
     font-size: 1.5vw;
+    user-select: none;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 25vw;
     border: 1px solid white;
@@ -41,10 +45,12 @@
     width:20%;
     height:4.4vw;
     font-size: 1.5vw;
+    user-select: none;
     background-color: #F49B48;
     border-radius: 25vw;
     left:70%;
     border:none;
+    top:-0.1vw;
 }
 
 .topclgscontent{
@@ -64,6 +70,9 @@
     border: 2px solid black;
     border-radius: 15px;
     margin: 2vw 2vw 2vw 2vw;
+    user-select:none;
+    -webkit-user-select:none;
+    cursor:pointer;
 }
 
 .topclgsmore{
@@ -71,9 +80,21 @@
     height:auto;
     border: none;
     font-size: 1.5vw;
+    user-select: none;
     background-color: white;
     border-radius: 15px;
     margin: 2vw 2vw 2vw 2vw;
+}
+
+.morebtn{
+    width:6.5vw ;
+    height: 7vw ;
+    background-color: white ;
+    border: none ;
+    font-size: 1.5vw;
+    user-select:none;
+    -webkit-user-select:none;
+    cursor:pointer;
 }
 
 .citiescontainer{
@@ -92,6 +113,9 @@
     height:auto;
     border: 2px solid black;
     border-radius: 5px;
+    user-select:none;
+    -webkit-user-select:none;
+    cursor:pointer;
 }
 
 .topcities{
@@ -106,6 +130,7 @@
     font-weight: bold;
     border:none;
     font-size:1.5vw;
+    user-select: none;
 }
 
 .newsbox{
