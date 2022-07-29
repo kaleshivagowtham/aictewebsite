@@ -1,7 +1,7 @@
 import {React , useState} from 'react';
 import classes from './Search.module.css';
-import Header from '../header/Header';
-import Footer from '../footer/Footer';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer';
 import clgdata from '../../colleges.json';
 
 export default function Search() {

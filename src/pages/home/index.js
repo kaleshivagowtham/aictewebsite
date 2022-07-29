@@ -1,11 +1,11 @@
 import {React, useState} from 'react';
 import classes from './Home.module.css';
-import HomeHeader from '../components/header/homeHeader';
-import Footer from '../components/footer/Footer';
-import titleimg from '../AICTE_building1 1.png';
-import clgimg from '../clgimg.png';
-import cityimg from '../cityimg.jpg';
-import clgdata from '../colleges.json';
+import HomeHeader from '../../components/header/homeHeader';
+import Footer from '../../components/footer';
+import titleimg from '../../public/AICTE_building1 1.png';
+import clgimg from '../../public/clgimg.png';
+import cityimg from '../../public/cityimg.jpg';
+import clgdata from '../../colleges.json';
 
 function Home() {
 

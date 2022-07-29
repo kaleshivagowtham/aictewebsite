@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../header/homeHeader.js';
-import Footer from '../footer/Footer';
+import Header from '../../components/header/homeHeader.js';
+import Footer from '../../components/footer';
 import classes from './ClgInfo.module.css';
-import titleImg from '../../amity sih 1.png';
-import clgLogo from '../../clgLogo.png'
+import titleImg from '../../public/amity sih 1.png';
+import clgLogo from '../../public/clgLogo.png'
 
 export default function ClgInfo() {
     return(

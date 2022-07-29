@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
-import Home from './Home/Home';
-import Calendar from './components/calendar/Calendar';
-import Login from './components/login/Login';
-import Search from './components/Search/Search';
-import Loading from './components/loading/Loading'
-import Compare from './components/Compare/Compare';
-import ClgInfo from './components/ClgInfo/ClgInfo';
+import Home from './pages/home';
+import Calendar from './pages/calendar';
+import Login from './pages/login';
+import Search from './pages/search';
+import Loading from './components/loading'
+import Compare from './pages/compare';
+import ClgInfo from './pages/clginfo';
 
-function App() {
+export default function App() {
 
   const [loading , setLoading] = useState(false);
 
@@ -20,12 +21,10 @@ function App() {
   },[])
 
   return (
-    <div className="App">
+     <div className="App">
       {
-        loading ? <Loading /> : <Search />
+        loading ? <Loading /> : <Login />
       }
     </div>
   );
 }
-
-export default App;

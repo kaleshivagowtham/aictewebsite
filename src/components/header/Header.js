@@ -2,7 +2,7 @@ import {React} from 'react';
 import classes from './Header.module.css';
 import translateimg from '../../translateimg.png'
 import logoimg from '../../logo.png';
-import Login from '../login/Login';
+import Login from '../../pages/login';
 
 export default function Header() {
 
@@ -10,9 +10,9 @@ export default function Header() {
         <>
         <div className={classes.head}>
             <img className={classes.logoimg} src={logoimg}/>
-            <h1 className={classes.org}>AICTE</h1>
+            <a href="/"><h1 className={classes.org}>AICTE</h1></a>
             <div style={{ borderLeft:"2px solid white", height:"auto" , margin:"1.5vw 1vw 1.5vw 0"}}></div>
-            <h1 className={classes.name}>ClgSearch.com</h1>
+            <a href="/"><h1 className={classes.name}>ClgSearch.com</h1></a>
             <div className={classes.topoptions}>
             <h4><a className='colorNotChange' style={{color:"white"}} href='http://www.youtube.com' target='blank'>Home</a></h4>
                 <h4><a className='colorNotChange' style={{color:"white"}} href='http://www.youtube.com' target='blank'>Rank Predictor</a></h4>

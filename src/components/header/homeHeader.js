@@ -2,9 +2,9 @@ import {React , useState} from 'react';
 import './homeHeader.css';
 import translateimg from '../../translateimg.png'
 import logoimg from '../../logo.png';
-import Login from '../login/Login';
-import Home from '../../Home/Home';
-import Calendar from '../calendar/Calendar';
+import Login from '../../pages/login';
+import Home from '../../pages/home';
+import Calendar from '../../pages/calendar';
 
 export default function Header() {
 
